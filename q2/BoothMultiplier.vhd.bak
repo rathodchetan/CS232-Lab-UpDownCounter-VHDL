@@ -1,0 +1,7 @@
+
+
+entity BoothMultiplier is
+port ( clk, rst : in std_logic;
+a, b : in std_logic_vector (3 downto 0);
+result : out std_logic_vector (7 downto 0) );
+end entity;
